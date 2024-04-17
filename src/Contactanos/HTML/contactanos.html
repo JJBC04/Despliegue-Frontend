@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contactanos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="./../../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/contactanos.css">
+</head>
+
+<body>
+    <div class="flex">
+        <!-- Barra lateral -->
+        <div
+            class="bg-gray-200 text-gray-500 h-screen w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
+            <!-- Header barra lateral -->
+            <h1 class="text-black text-2xl font-semibold underline decoration-sky-500">
+                CRM RACER
+            </h1>
+
+            <!-- Navegación -->
+            <nav>
+                <a href="#"
+                    class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-200 hover:text-blue-800">
+                    Inicio
+                </a>
+                <a href="#"
+                    class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-200 hover:text-blue-800">
+                    Ventas
+                </a>
+                <a href="#"
+                    class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-200 hover:text-blue-800">
+                    Clientes
+                </a>
+                <a href="#"
+                    class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-200 hover:text-blue-800">
+                    Productos
+                </a>
+                <a href="#"
+                    class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-200 hover:text-blue-800">
+                    Reportes
+                </a>
+            </nav>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <div class="flex min-h-screen bg-gray-100 items-center justify-center">
+                <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md mx-auto">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Póngase en contacto</h2>
+                    <form action="#" method="POST">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-semibold mb-2">Nombre
+                                completo</label>
+                            <input type="text" id="name" name="name"
+                                class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none"
+                                required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">Correo
+                                electrónico</label>
+                            <input type="email" id="email" name="email"
+                                class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none"
+                                required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"
+                                class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none"
+                                required></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button type="submit"
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                                Enviar Mensaje
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+</body>
+
+</html>
