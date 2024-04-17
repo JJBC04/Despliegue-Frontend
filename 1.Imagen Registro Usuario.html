@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: CRM Racer ::.</title>
+    
+    <!-- Enlaces a hojas de estilos -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">CRM Racer</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Formulario para registrar usuario -->
+    <div class="container mlogin">
+        <div id="login">
+            <h1>Registrar usuario</h1>
+            <form name="loginform" id="loginform" action="" method="">
+                <!-- Campos de ingreso de información -->
+                <p>
+                    <input type="submit" name="login" class="button" value="Nombres" />
+                    <input type="text" name="username" id="username" class="input" value="" size="40" />
+                    <input type="submit" name="login" class="button" value="Apellidos" />
+                    <input type="text" name="username" id="username" class="input" value="" size="40" />
+                </p>
+                <p>
+                    <input type="submit" name="login" class="button" value="Correos" />
+                    <input type="text" name="username" id="username" class="input" value="" size="40" />
+                    <input type="submit" name="login" class="button" value="Celular" />
+                    <input type="text" name="username" id="username" class="input" value="" size="40" />
+                </p>
+                <!-- Selección de rol -->
+                <p>
+                    <input type="submit" name="login" class="button" value="Asignar Rol" />
+                    <select name="Rol" id="Rol" style="width:350px"> 
+                        <option value="NO">Seleccione</option>
+                        <option value="Seleccionar">Seleccionar</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Comercial">Comercial</option>
+                        <option value="Facturación">Facturación</option>
+                        <option value="Logística">Logística</option>
+                        <option value="Otra">Otra</option>
+                    </select>
+                </p>
+                <!-- Botones de acción -->
+                <p class="submit">
+                    <input type="submit" name="login" class="button" value="Cancelar" />
+                    <input type="submit" name="login" class="button" value="Registrarme" />
+                </p>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Pie de página -->
+    <footer>
+        <ul>
+            <li><a href="#">La mejor manera de encontrarse, es perderse en servicio de los demás</a></li>
+        </ul>
+    </footer>
+    
+    <!-- Sección de información de contacto -->
+    <section class="dark-bg text-center section-padding contact-wrap">
+        <div class="row contact-details">
+            <div class="col-md-4">
+                <div class="light-box box-hover">
+                    <h2><i class="fa fa-map-marker"></i><span>Dirección</span></h2>
+                    <p>Bogotá D.C</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="light-box box-hover">
+                    <h2><i class="fa fa-mobile"></i><span>Teléfono</span></h2>
+                    <p>601 2003467</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="light-box box-hover">
+                    <h2><i class="fa fa-paper-plane"></i><span>Correo</span></h2>
+                    <p><a href="mailto:crm@racer.com">crm@racer.com</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Botones de redes sociales -->
+        <ul class="social-buttons">
+            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+    </section>
+</body>
+</html>
